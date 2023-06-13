@@ -17,11 +17,8 @@ function sum(){
       <h4> ID: {user.id} , Name: {user.name}</h4>
       <h1 id="id1">Hello World</h1>
       <h1 id={"id1"}>Hello World</h1>
-      <h1 id={`id1`}></h1>
-      <h1 id></h1>
-      
-      
-      
+      <h1 id={`id1`}>Hello World</h1>
+      <h1 id={id}>Hello World</h1>
       </>
   )
 }
