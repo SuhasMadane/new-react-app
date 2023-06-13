@@ -1,15 +1,24 @@
 function sum(){
-  let condition = false;
-  //meaning of 1st statement is whwn condition is 
-  //true then execute the next element if not then 
-  //do not execute
-  // if yo
-  return (
-        <>
-        {condition && <h1>Hello Suhas</h1>} 
-        {condition ? <h3>Welcome to Cdac</h3> : <h3 style={{backgroundColor:"red",color:"white"}}>Welcome to hell</h3>}
-        
-        </>
+ let rst = "Good Night";
+ let value = 10;
+ let pi = 3.14;
+ let condn = true;
+ let user = {id:105,name:"Suhas"};
+
+ return (
+      <>
+      <h4>Good Night</h4>
+      <h4>{rst}</h4>
+      <h4>10</h4>
+      <h4>{value}</h4>
+      {condn ? <h4>Good Night</h4> : <h4>Good Morning</h4>}
+      <h4>{pi}</h4>
+      <h4> ID: {user.id} , Name: {user.name}</h4>
+      
+      
+      
+      
+      </>
   )
 }
 export default sum;
