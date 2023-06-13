@@ -1,10 +1,5 @@
 function sum(){
- let rst = "Good Night";
- let value = 10;
- let pi = 3.14;
- let condn = true;
- let user = {id:105,name:"Suhas"};
- let id = "id1";
+ let style = {background:"blue",color:"orange"}
 
  return (
       <>
