@@ -1,15 +1,15 @@
 function sum(){
-  let srt = "Hello Everyone";
-  let pi = 3.142;
-  let name = "Suhas"
-  //multiple tags should be enclosed in one parent tag
-  //if you writing statements in multlines then paranthesis is mendattory,if single statement then parenthesis is optional
+  let condition = false;
+  //meaning of 1st statement is whwn condition is 
+  //true then execute the next element if not then 
+  //do not execute
+  // if yo
   return (
-      <>
-         <h1>Hello WWorld</h1>
-         <h1>{srt}</h1>
-         <h1>pi:{pi}</h1>
-      </>
-  ); 
+        <>
+        {condition && <h1>Hello Suhas</h1>} 
+        {condition ? <h3>Welcome to Cdac</h3> : <h3 style={{backgroundColor:"red",color:"white"}}>Welcome to hell</h3>}
+        
+        </>
+  )
 }
 export default sum;
